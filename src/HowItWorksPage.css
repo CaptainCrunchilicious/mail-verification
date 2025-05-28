@@ -1,0 +1,82 @@
+.how-it-works-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.how-it-works-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+    text-align: center;
+    color: rgb(12, 108, 219);
+    
+}
+
+.timeline-wrapper {
+  position: relative;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 2rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #c2d6ef;
+  z-index: 0;
+}
+
+.timeline-steps {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.timeline-step {
+  display: flex;
+  align-items: flex-start;
+}
+
+.step-number {
+  background-color: #6cc4ea;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+  border-radius: 9999px;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+  flex-shrink: 0;
+}
+
+.step-content {
+  background-color: rgb(237, 245, 247);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(220, 131, 131, 0.1);
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.step-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: rgb(116, 150, 243);
+}
+
+.step-description {
+  color: #3377d7;
+}
+
+.step-list {
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+  color: #486b9d;
+  list-style-type: disc;
+}
