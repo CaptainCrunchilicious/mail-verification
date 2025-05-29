@@ -16,3 +16,4 @@ If you are developing a production application, we recommend using TypeScript wi
 "# Email_Leak_Verification_Checker" 
 "# Email-Leak_Verification_Checker" 
 "# Email-Leak_Verification_Checker" 
+"# Email-Checker" 
